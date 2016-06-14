@@ -24,6 +24,8 @@
 		A7557C481D10770D0083CAF5 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C471D10770D0083CAF5 /* libicucore.tbd */; };
 		A7557C4A1D10771C0083CAF5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C491D10771C0083CAF5 /* libsqlite3.tbd */; };
 		A7557C4D1D1077680083CAF5 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C4C1D1077680083CAF5 /* BmobSDK.framework */; };
+		A7557C521D107F5A0083CAF5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7557C501D107F5A0083CAF5 /* SecondViewController.m */; };
+		A7557C531D107F5A0083CAF5 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7557C511D107F5A0083CAF5 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,10 @@
 		A7557C471D10770D0083CAF5 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		A7557C491D10771C0083CAF5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		A7557C4C1D1077680083CAF5 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		A7557C4E1D10783F0083CAF5 /* Bmob.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bmob.pch; sourceTree = "<group>"; };
+		A7557C4F1D107F5A0083CAF5 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A7557C501D107F5A0083CAF5 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A7557C511D107F5A0083CAF5 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 				A7451EC11D0DB0B10036B4DE /* LaunchScreen.storyboard */,
 				A7451EC41D0DB0B10036B4DE /* Info.plist */,
 				A7451EB31D0DB0B10036B4DE /* Supporting Files */,
+				A7557C4F1D107F5A0083CAF5 /* SecondViewController.h */,
+				A7557C501D107F5A0083CAF5 /* SecondViewController.m */,
+				A7557C511D107F5A0083CAF5 /* SecondViewController.xib */,
 			);
 			path = Bmob;
 			sourceTree = "<group>";
@@ -109,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				A7451EB41D0DB0B10036B4DE /* main.m */,
+				A7557C4E1D10783F0083CAF5 /* Bmob.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7557C531D107F5A0083CAF5 /* SecondViewController.xib in Resources */,
 				A7451EC31D0DB0B10036B4DE /* LaunchScreen.storyboard in Resources */,
 				A7451EC01D0DB0B10036B4DE /* Assets.xcassets in Resources */,
 				A7451EBE1D0DB0B10036B4DE /* Main.storyboard in Resources */,
@@ -202,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7557C521D107F5A0083CAF5 /* SecondViewController.m in Sources */,
 				A7451EBB1D0DB0B10036B4DE /* ViewController.m in Sources */,
 				A7451EB81D0DB0B10036B4DE /* AppDelegate.m in Sources */,
 				A7451EB51D0DB0B10036B4DE /* main.m in Sources */,
@@ -322,6 +334,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = Bmob/Bmob.pch;
 				INFOPLIST_FILE = Bmob/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -338,6 +351,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = Bmob/Bmob.pch;
 				INFOPLIST_FILE = Bmob/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

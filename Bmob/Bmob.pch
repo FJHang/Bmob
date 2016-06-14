@@ -1,0 +1,16 @@
+//
+//  Bmob.pch
+//  Bmob
+//
+//  Created by 冯军航 on 16/6/15.
+//  Copyright © 2016年 冯军航. All rights reserved.
+//
+
+#ifndef Bmob_pch
+#define Bmob_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Bmob_pch */
+#define BMOB_APPLICATION_ID @"7477c7abb46455b53b6eabad69a73d3a"
