@@ -13,6 +13,17 @@
 		A7451EBE1D0DB0B10036B4DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7451EBC1D0DB0B10036B4DE /* Main.storyboard */; };
 		A7451EC01D0DB0B10036B4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7451EBF1D0DB0B10036B4DE /* Assets.xcassets */; };
 		A7451EC31D0DB0B10036B4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7451EC11D0DB0B10036B4DE /* LaunchScreen.storyboard */; };
+		A7557C381D1076AE0083CAF5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C371D1076AE0083CAF5 /* CoreLocation.framework */; };
+		A7557C3A1D1076BC0083CAF5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C391D1076BC0083CAF5 /* Security.framework */; };
+		A7557C3C1D1076C90083CAF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C3B1D1076C90083CAF5 /* CoreGraphics.framework */; };
+		A7557C3E1D1076D50083CAF5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C3D1D1076D50083CAF5 /* MobileCoreServices.framework */; };
+		A7557C401D1076DF0083CAF5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C3F1D1076DF0083CAF5 /* CFNetwork.framework */; };
+		A7557C421D1076EC0083CAF5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C411D1076EC0083CAF5 /* CoreTelephony.framework */; };
+		A7557C441D1076F50083CAF5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C431D1076F50083CAF5 /* SystemConfiguration.framework */; };
+		A7557C461D1077020083CAF5 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C451D1077020083CAF5 /* libz.1.2.5.tbd */; };
+		A7557C481D10770D0083CAF5 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C471D10770D0083CAF5 /* libicucore.tbd */; };
+		A7557C4A1D10771C0083CAF5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C491D10771C0083CAF5 /* libsqlite3.tbd */; };
+		A7557C4D1D1077680083CAF5 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7557C4C1D1077680083CAF5 /* BmobSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		A7451EBF1D0DB0B10036B4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7451EC21D0DB0B10036B4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7451EC41D0DB0B10036B4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7557C371D1076AE0083CAF5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A7557C391D1076BC0083CAF5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A7557C3B1D1076C90083CAF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7557C3D1D1076D50083CAF5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A7557C3F1D1076DF0083CAF5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A7557C411D1076EC0083CAF5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A7557C431D1076F50083CAF5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A7557C451D1077020083CAF5 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		A7557C471D10770D0083CAF5 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		A7557C491D10771C0083CAF5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A7557C4C1D1077680083CAF5 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7557C4A1D10771C0083CAF5 /* libsqlite3.tbd in Frameworks */,
+				A7557C481D10770D0083CAF5 /* libicucore.tbd in Frameworks */,
+				A7557C461D1077020083CAF5 /* libz.1.2.5.tbd in Frameworks */,
+				A7557C441D1076F50083CAF5 /* SystemConfiguration.framework in Frameworks */,
+				A7557C421D1076EC0083CAF5 /* CoreTelephony.framework in Frameworks */,
+				A7557C401D1076DF0083CAF5 /* CFNetwork.framework in Frameworks */,
+				A7557C3E1D1076D50083CAF5 /* MobileCoreServices.framework in Frameworks */,
+				A7557C3C1D1076C90083CAF5 /* CoreGraphics.framework in Frameworks */,
+				A7557C3A1D1076BC0083CAF5 /* Security.framework in Frameworks */,
+				A7557C381D1076AE0083CAF5 /* CoreLocation.framework in Frameworks */,
+				A7557C4D1D1077680083CAF5 /* BmobSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,7 @@
 		A7451EA71D0DB0B10036B4DE = {
 			isa = PBXGroup;
 			children = (
+				A7557C4B1D1077210083CAF5 /* Libs */,
 				A7451EB21D0DB0B10036B4DE /* Bmob */,
 				A7451EB11D0DB0B10036B4DE /* Products */,
 			);
@@ -77,6 +111,24 @@
 				A7451EB41D0DB0B10036B4DE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7557C4B1D1077210083CAF5 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				A7557C491D10771C0083CAF5 /* libsqlite3.tbd */,
+				A7557C471D10770D0083CAF5 /* libicucore.tbd */,
+				A7557C451D1077020083CAF5 /* libz.1.2.5.tbd */,
+				A7557C4C1D1077680083CAF5 /* BmobSDK.framework */,
+				A7557C431D1076F50083CAF5 /* SystemConfiguration.framework */,
+				A7557C411D1076EC0083CAF5 /* CoreTelephony.framework */,
+				A7557C3F1D1076DF0083CAF5 /* CFNetwork.framework */,
+				A7557C3D1D1076D50083CAF5 /* MobileCoreServices.framework */,
+				A7557C3B1D1076C90083CAF5 /* CoreGraphics.framework */,
+				A7557C391D1076BC0083CAF5 /* Security.framework */,
+				A7557C371D1076AE0083CAF5 /* CoreLocation.framework */,
+			);
+			name = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +318,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Bmob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reeand.Bmob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,7 +334,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Bmob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reeand.Bmob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,6 +365,7 @@
 				A7451EC91D0DB0B10036B4DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
