@@ -13,4 +13,4 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #endif /* Bmob_pch */
-#define BMOB_APPLICATION_ID @"7477c7abb46455b53b6eabad69a73d3a"
+#define BMOB_APPLICATION_KEY @"7477c7abb46455b53b6eabad69a73d3a"
